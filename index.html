@@ -1,0 +1,144 @@
+<!-- 
+    File: index.html
+    Gui Assignment: Creating your first web page
+    Name: Theophilus Opoku-Afriyie  
+    Date created: 9/2/2022
+    Description: My webpage is a simple intro page to the places I have traveled to thus far-->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- page content -->
+      <header id="top">           <!-- Header section-->
+        <h1>My Travel Journal</h1>
+        <h2>Theo Opoku</h2>
+      </header>
+      <div class="locations">     <!-- Locations class emcopasses main content of the page-->
+        <div id="London-section" class="location-container">  <!--This class is the container for flex box which I use to style each location-->
+          <a href="https://www.visitlondon.com/" target="_blank"> <!--Creates hyperlink through picture-->
+          <img class="pictures" src="../images/LondonPic.jpg" id="image-Lon" alt="Picture of London skyline"></a> 
+           <!--Alt text is good practice for disabled users-->
+            <table > <!--Table setup for 4 rows and two columns-->
+              <tr>           
+                <th>Category</th> 
+                <th>Rating</th>
+              </tr>
+              <tr>
+                <td>Cuisine</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>Aesthetic</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>Cleanliness</td>
+                <td>3</td>
+              <tr>
+                <td>Attractions</td>
+                <td>6</td>
+              </tr>
+              </table>
+       
+        <p class="location-info"> <!--Location Info class allows for text styling-->
+          London was the first european country I ever visited and what struck me the most was the hustle. In this aspect it 
+          seemed very similar to New York and Boston. In terms of Cuisine there was one nice restaurant the Coppa Club with excellent atmosphere and good food,
+          however I found none of the other restaurants to be very memorable. In terms of city cleanliness there was much to be desired as there was a lot of 
+          trash often in the streets or sidewalks and there were rats especially in the train stations. However the memorable buildings like Buckingham Palace and 
+          Big Ben were beautiful to see and aesthetically pleasing.          </p>
+        </div>
+        <!--From here on is a repetition of the above code for the two more locations-->
+          <div id="Paris-section" class="location-container">
+            <a  href="https://en.parisinfo.com/" target="_blank">
+              <img class="pictures" src="../images/ParisPic.jpg" id="image-Par" alt="Picture of the Louvre">
+              </a>
+
+            <table>
+              <tr>           
+                <th>Category</th> 
+                <th>Rating</th>
+              </tr>
+              <tr>
+                <td>Cuisine</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <td>Aesthetic</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Cleanliness</td>
+                <td>5</td>
+              <tr>
+                <td>Attractions</td>
+                <td>9</td>
+              </tr>
+              </table>
+
+          <p class="location-info">
+            My first reaction to Paris was that it truly was the city of love and that there were numerous couples.
+            The cuisine was amazing, especially the pastries which were top tier.
+            The attractions were numerous from the Eiffel Tower to the Louvre which housed so much history and amazing art, 
+            not to mention the aesthetic value of those locations, as the pictures taken at those locations came out beautiful. 
+            In terms of cleanliness there were some points to be gained as though there wasn't much trash ,
+            there were strong smells in certain areas of the city.</p>
+        </div>
+        <div id="Rome-section" class="location-container">
+          <a  href="https://romesite.com/" target="_blank">
+          <img class="pictures" src="../images/RomePic.jpg" id="image-Rom" alt="Picture of the Colesseum">
+          </a>          
+            <table >
+              <tr>           
+                <th>Category</th> 
+                <th>Rating</th>
+              </tr>
+              <tr>
+                <td>Cuisine</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <td>Aesthetic</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Cleanliness</td>
+                <td>7</td>
+              <tr>
+                <td>Attractions</td>
+                <td>9</td>
+              </tr>
+              </table>
+          <p class="location-info">
+            
+              Of the three cities though each had it's own history present Rome definitely struck me as a timeless city. The way the buildings were embedded into the ground 
+              making use of old structures was amazing. The attractions there were amazing ranging from the Sistine Chapel in the Vatican to the Colosseum. The cuisine was good, 
+              with the most striking being the gelato. The ancient aura worked to Rome's advantage and brought a unique aesthetic. 
+              The cleanliness was not bad as well with nothing being to striking as I walked through the streets. 
+          </p>       </div>
+    </div>
+
+      <footer>
+        If you would like more information about visiting any of the above locations please click the associated pictures.
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img style="border:0;width:88px;height:31px"
+                  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                  alt="Valid CSS!" />
+              </a>
+          </p>
+          <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!" />
+            </a>
+        </p></footer>
+          
+      </body>
+</html>

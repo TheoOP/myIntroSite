@@ -1,0 +1,39 @@
+h1, h2{ /*styling my header to make it centered in the page*/
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pictures {/*setting a size for my pictures*/
+    height: 300px;
+  }
+
+.location-container{ /*Using flex box as the outer shell to style each location section*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+
+ body {  /*Using my own image as a background and keeping image fixed as user scrolls*/
+    background: url(../images/TravelBackground.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+.location-info{ /*Using cool color gradient background so text shows on top of background*/
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background: rgb(9,121,52);
+    background: linear-gradient(90deg, rgba(9,121,52,1) 0%, rgba(0,197,205,1) 0%, rgba(0,205,178,1) 90%);
+    justify-content: center;
+    align-items: center;
+    
+}
+footer{
+    font-weight: bold;
+}
+table{  /*Keeping similar color scheme as before going with same color gradient*/
+    background: rgb(9,121,52);
+    background: linear-gradient(90deg, rgba(9,121,52,1) 0%, rgba(0,197,205,1) 0%, rgba(0,205,178,1) 90%);
+    justify-content: center;
+    align-items: center;
+}
