@@ -15,7 +15,7 @@ h1, h2{ /*styling my header to make it centered in the page*/
  }
 
  body {  /*Using my own image as a background and keeping image fixed as user scrolls*/
-    background: url(../images/TravelBackground.jpg) no-repeat center center fixed; 
+    background: url(./images/TravelBackground.jpg) no-repeat center center fixed; 
     background-size: cover;
   }
 
